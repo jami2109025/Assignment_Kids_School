@@ -6,45 +6,56 @@
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }
-  
-body{
-    background-image: url(assets/bg.png);
-    margin-left: 100px;
-    margin-right: 100px;
-    margin-top: 20px;
+}
+
+header,
+main,
+footer {
+    margin: 0px 130px;
+}
+
+body {
+    box-shadow: inset 1px -500px 1000px rgb(248, 246, 244);
 }
 
 /* Navbar styles */
-.navbar{
+.navbar {
     justify-content: space-between;
 }
-.nav_21{
-    font-weight: bold;
+
+.nav_1 {
     font-size: 2rem;
+    font-weight: bold;
 }
-.nav_2{
+
+.nav_2 {
     list-style: none;
     gap: 20px;
     font-size: 1.25rem;
     font-weight: 500;
 }
-.nav_2 a{
+
+.nav_2 a {
     text-decoration: none;
 }
-.home{
+
+.home {
     color: #FEA301;
 }
-.about{
+
+.about {
     color: rgb(3, 108, 3);
 }
-.facilities{
+
+.facilities {
     color: blueviolet;
 }
-.admission{
+
+.admission {
     color: rgb(194, 23, 148);
 }
-.btn_1{
+
+.btn_1 {
     width: 197px;
     height: 50px;
     border-radius: 12px;
@@ -54,22 +65,335 @@ body{
     font-size: 1.25rem;
     color: white;
 }
-.nav_3 img{
+
+.menubar img {
     visibility: hidden;
 }
+
+.hr {
+    visibility: hidden;
+}
+
+/* Banner Style */
+.banner {
+    justify-content: space-between;
+}
+
+.banner_content {
+    padding-top: 115px;
+    padding-bottom: 115px;
+}
+
+.banner_heading {
+    font-weight: bold;
+    font-size: 3.5rem;
+}
+
+.towards_vision {
+    color: rgb(44, 121, 181);
+}
+
+.empowering {
+    color: #FEA301;
+}
+
 /* Shared Styles */
-.display_flex{
+.display_flex {
     display: flex;
 }
 
+.banner_paragraph {
+    font-weight: 400;
+    font-size: 1.25rem;
+    margin-top: 20px;
+}
+
+.btn_2 {
+    background-color: black;
+    width: 197px;
+    height: 50px;
+    border-radius: 12px;
+    border: navajowhite;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: white;
+}
+
+/* main section style */
+.main_section_1 {
+    background-image: url(assets/bg.png);
+    box-shadow: inset 1px -500px 1000px rgb(248, 246, 244);
+
+}
+
+.curriculam {
+    font-weight: bold;
+    font-size: 1.9rem;
+    text-align: center;
+}
+
+.boxes {
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.box {
+    border-radius: 19px;
+    text-align: center;
+    align-items: center;
+    justify-items: center;
+    width: 370px;
+    height: 480px;
+    padding-top: 70px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #fff;
+}
+
+.box_1 {
+    border: 1px solid rgb(222, 245, 255);
+    box-shadow: inset 5px 100px 40px rgba(222, 245, 255, 1);
+}
+
+.box_2 {
+    border: 1px solid rgb(255, 244, 220);
+    box-shadow: inset 5px 100px 40px rgba(255, 244, 220, 1);
+
+}
+
+.box_3 {
+    border: 1px solid rgb(242, 232, 255);
+    box-shadow: inset 5px 100px 40px rgba(242, 232, 255, 1);
+
+}
+
+.button {
+    font-weight: bold;
+    border: none;
+    background-color: #fff;
+}
+
+.btn_3 {
+    color: #64C8FF;
+}
+
+.btn_4 {
+    color: #F0AA00;
+}
+
+.btn_5 {
+    color: #8700FF;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}
+
+.circle-button {
+    background-color: #f4a425;
+    border: none;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    outline: none;
+}
+
+
+.arrow {
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 2px 2px 0;
+    transform: rotate(-45deg);
+}
+
+.arrow,.left {
+    transform: rotate(135deg);
+  }
+
+.main_section_2 {
+    background-image: url(assets/bg.png);
+    box-shadow: inset 1px -500px 1000px rgba(255, 221, 162, 1);
+}
+
+.grid_container {
+    display: grid;
+    grid-template-columns: 1fr repeat(2, 1fr);
+    grid-template-rows: auto;
+    gap: 20px;
+    align-items: center;
+}
+
+.grid_box {
+    background-color: #fff;
+    border-radius: 18px;
+}
+
+.main_section_2 div:nth-child(1) {
+    grid-column: 1;
+    grid-row: span 2;
+}
+
+.grid_container img {
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+    width: 100%;
+}
+
+.padding {
+    padding-left: 38px;
+    padding-bottom: 30px;
+}
+
+.button_5 {
+    border: none;
+    border-radius: 48px;
+    background-color: #64C8FF;
+    height: 48px;
+}
+
+.button1 {
+    position: relative;
+    top: -30px;
+    left: 20px;
+    z-index: 10;
+}
+
+.btn_6 {
+    background-color: #8eb71e;
+    width: 175px;
+}
+
+.btn_8 {
+    background-color: #f3c214;
+    width: 175px;
+}
+
+.btn_7 {
+    background-color: #b7a51e;
+    width: 175px;
+}
+
+.btn_9 {
+    background-color: #cac9c1;
+    width: 130px;
+}
+
+.view_all_div {
+    text-align: center;
+}
+
+.view {
+    background-color: black;
+    border-radius: 12px;
+    color: white;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Footer Style */
+footer {
+    background-color: #b5bb9e;
+    padding: 123px 230px 175px 140px;
+}
+
+.footer_div {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+
+.footer1 {
+    text-align: left;
+}
+
+.footer2 {
+    list-style: none;
+    gap: 20px;
+    font-size: 1.25rem;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.footer2 a {
+    text-decoration: none;
+}
 
 /* Responsive Media query*/
 
 @media screen and (max-width : 576px) {
-    .nav_1 h1, .nav_2,.btn_1{
+
+    header,
+    main,
+    footer {
+        margin: 0px 0px;
+    }
+
+    /* header */
+    .nav_1 h1,
+    .nav_2,
+    .btn_1 {
+        display: none;
+    }
+
+    .menubar img {
+        visibility: visible;
+        width: 80px;
+    }
+
+    .hr {
+        visibility: visible;
+    }
+
+    .banner {
+        flex-direction: column;
+    }
+
+    .banner_content {
+        order: 2;
+        text-align: center;
+    }
+
+    /* main */
+    .boxes {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .circle_button_section{
+        /* display: none; */
         visibility: hidden;
     }
-    .nav_3 img{
-        visibility: visible;
+
+    .big_box {
+        display: none;
+    }
+
+    .grid_container {
+        grid-template-columns: repeat(2, 1fr);
+
+    }
+
+    footer {
+        padding: 100px 0 100px 20px;
+    }
+
+    .footer_div {
+        grid-template-columns: repeat(1, 1fr);
+
     }
 }
