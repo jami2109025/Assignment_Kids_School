@@ -8,13 +8,8 @@
     font-style: normal;
 }
 
-header,
-main,
-footer {
-    margin: 0px 130px;
-}
-
 body {
+    margin: 0px 130px;
     box-shadow: inset 1px -500px 1000px rgb(248, 246, 244);
 }
 
@@ -337,9 +332,7 @@ footer {
 
 @media screen and (max-width : 576px) {
 
-    header,
-    main,
-    footer {
+    body {
         margin: 0px 0px;
     }
 
